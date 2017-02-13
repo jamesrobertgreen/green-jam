@@ -1,0 +1,46 @@
+body{
+    background-color: #e9e9e9;
+}
+
+li{
+    font-size: 16px;
+}
+ul{
+    padding-bottom: 15px;
+}
+
+header {
+    text-align: center;
+    background: #94618e;
+}
+
+hr.star-light:after {
+    background-color: #94618e;
+    color: #fff;
+}
+
+hr.star-grey:after {
+    background-color: #696969;
+    color: #fff;
+}
+
+section.info{
+    background-color:#696969;
+    color: white;
+}
+
+.content{
+    padding-top: 25px;
+    padding-bottom: 50px;
+    font-family: 'Merriweather', serif;
+}
+
+@media (min-width: 768px)
+header .container {
+    padding-top:200px; 
+    padding-bottom: 100px;
+}
+header .container {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
